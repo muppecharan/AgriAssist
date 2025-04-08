@@ -31,3 +31,18 @@
     <script src="scripts/app.js"></script>
 </body>
 </html>
+<div class="container mt-5">
+    <h3>Crop Recommender</h3>
+    <form id="cropForm">
+        <div class="mb-3">
+            <label>Soil Type</label>
+            <select class="form-control" id="soilType">
+                <option value="1">Loamy</option>
+                <option value="2">Clay</option>
+                <option value="3">Sandy</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-success">Get Recommendation</button>
+    </form>
+    <div id="result" class="mt-3"></div>
+</div>
